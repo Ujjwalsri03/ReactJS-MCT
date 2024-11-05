@@ -1,0 +1,27 @@
+/* Grid layout */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 10px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+/* Square styles */
+.square {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid #333;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Selected square style */
+.selected {
+  background-color: green;
+}
