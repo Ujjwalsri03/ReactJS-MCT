@@ -26,7 +26,7 @@ const App = () => {
 
   const resetSquaresInSequence = (currentIndex) => {
     if (currentIndex < selectedSquares.length) {
-      // Remove the square from selectedSquares in the sequence it was selected
+      
       setSelectedSquares((prev) => prev.slice(1));
 
       // Call the next reset after a delay
